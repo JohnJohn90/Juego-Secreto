@@ -29,7 +29,7 @@ function verificarIntento() {
 }
 
 function condicionesIniciales() {
-    asignarElementoTexto('h1','Juego del numero secreto');
+    asignarElementoTexto('h1','Juego del numero secreto!');
     asignarElementoTexto('p',`Indique numero del 1 al ${numeroMaximo}`);
     limpiarCaja();
     veces = 1;
